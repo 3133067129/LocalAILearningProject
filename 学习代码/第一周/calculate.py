@@ -1,0 +1,7 @@
+print("这是根据公式：\nA = P * (1 + r/n)**(n*t)\n计算复利的最终金额")
+P = float(input("请输入本金P："))
+r = float(input("请输入年利率r："))
+n = float(input("请输入复利次数n："))
+t = float(input("请输入投资年限t："))
+A = P * (1 + r/n)**(n*t)
+print(f"最终金额为{A}")

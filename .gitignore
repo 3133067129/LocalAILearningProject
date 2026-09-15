@@ -1,0 +1,23 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code 配置（可选，想同步就删掉这行）
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 数据文件（如果太大不想传，按需删掉）
+# *.csv
+# *.xlsx
