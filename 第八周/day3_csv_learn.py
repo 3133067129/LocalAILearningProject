@@ -39,3 +39,5 @@ with open('output.csv', mode='w') as file:
 
     for row in data:
         csv_dict_writer.writerow(row)
+
+
