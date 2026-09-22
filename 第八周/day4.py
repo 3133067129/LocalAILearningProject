@@ -13,9 +13,9 @@ for stock_price in stock_prices:
     try:
         cleaned_prices.append(float(stock_price))
     except ValueError:
-        print("Error")
+        print("ValueError")
 
 try:
     print((cleaned_prices[1] - cleaned_prices[0]) / cleaned_prices[0])
-except ZeroDivisionError:
+except (ZeroDivisionError, IndexError):
     print("zero error")
