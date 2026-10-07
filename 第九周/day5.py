@@ -29,9 +29,7 @@ daily_range：每天的最高价 − 最低价（第 2 列 − 第 3 列），�
 total_close = prices[:, 3].sum()
 avg_close = np.mean(prices[:, 3])
 close_std = np.std(prices[:, 3])
-highest_high = np.max(prices[:, 1])
-print(highest_high)
-
+highest_high = np.amax(prices[:, 1])
 lowest_low = np.amin(prices[:, 2])
 avg_per_day = np.mean(prices, 1)
 avg_per_column = np.mean(prices, 0)
